@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If this specification informs your work, please cite it using these metadata."
+title: "Traffic Agentic Engineering: An Open Specification of Traffic Agent Cognition"
+type: dataset
+abstract: >-
+  Traffic Agentic Engineering (TAE) is an open specification describing how AI agents
+  should carry engineering responsibility in transportation domains. It defines a
+  compilation-oriented architecture -- Responsibility, Engineering IR, Reasoning Planner,
+  Engineering Primitive, Primitive Dependency Graph, Compiler, Validation, Delivery --
+  and a semantic contract (Traffic Primitive Specification, TPS) under which engineering
+  primitives such as traffic.queue.length are named by engineering meaning rather than
+  by implementation, enabling reproducible and auditable reasoning across swappable
+  computational operators. Volume I (Chapters 1--9) complete; v0.1 draft.
+authors:
+  - family-names: "Guo"
+    given-names: "Haifeng"
+    alias: "郭海锋"
+    affiliation: "WaySense AI"
+version: 0.1.0
+date-released: "2026-08-30"
+license: "CC-BY-4.0 AND CC-BY-NC-SA-4.0"
+repository-code: "https://github.com/WaySense-AI/traffic-agentic-engineering"
+url: "https://waysense-ai.github.io/traffic-agentic-engineering"
+keywords:
+  - traffic engineering
+  - agentic engineering
+  - intelligent transportation systems
+  - AI agents
+  - engineering primitives
+  - specification
+  - reproducible reasoning
+preferred-citation:
+  type: techreport
+  title: "Traffic Agentic Engineering: An Open Specification of Traffic Agent Cognition"
+  authors:
+    - family-names: "Guo"
+      given-names: "Haifeng"
+  year: 2026
+  note: "Volume I, Chapters 1--9. v0.1 draft."
+  url: "https://github.com/WaySense-AI/traffic-agentic-engineering"

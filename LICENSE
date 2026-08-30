@@ -1,0 +1,59 @@
+# Licensing
+
+This repository uses **two different licenses for two different kinds of content.**
+The asymmetry is deliberate.
+
+## Summary
+
+| Content | License | Commercial use | Must attribute | Must share-alike |
+|---------|---------|:---:|:---:|:---:|
+| **Prose** — chapters, argument, exposition | [CC BY-NC-SA 4.0](./LICENSE-CONTENT.md) | No | Yes | Yes |
+| **Glossary, TPS, primitive identifiers, diagrams** | [CC BY 4.0](./LICENSE-SPEC.md) | Yes | Yes | No |
+
+## What falls where
+
+**CC BY-NC-SA 4.0 (prose)**
+- `docs/` — chapters 1–9, English
+- `zh-CN/` — chapters 1–9, Chinese translation
+- `README.md`
+
+**CC BY 4.0 (specification payload)**
+- `glossary/` — terminology and definitions
+- `primitives/` — Traffic Primitive Specification, TPS schema, primitive catalog
+- All `traffic.<domain>.<metric>` identifiers wherever they appear
+- All diagrams and schema illustrations
+- `CITATION.cff`
+
+## Why
+
+The prose argues a position. It may be read, shared, and translated freely — but not sold.
+
+The vocabulary is different. The glossary and the primitive contract are the parts of
+this work designed to be reused: in commercial products, in other specifications, in
+academic work, in infrastructure that has nothing to do with us. Restricting them would
+defeat their purpose.
+
+We are not trying to license revenue out of a specification. We are trying to make the
+vocabulary unavoidable.
+
+## Attribution
+
+For CC BY 4.0 material, attribution should take the form:
+
+> Source: *Traffic Agentic Engineering* — WaySense AI
+> https://github.com/WaySense-AI/traffic-agentic-engineering
+> Licensed under CC BY 4.0
+
+A machine-readable citation record is provided in [`CITATION.cff`](./CITATION.cff).
+
+## Disclaimer
+
+Both licenses are applied to the material "AS-IS" and without warranties of any kind,
+either express, implied, statutory, or otherwise, including without limitation
+warranties of title, merchantability, fitness for a particular purpose,
+non-infringement, absence of latent or other defects, accuracy, or the presence or
+absence of errors, whether or not discoverable.
+
+This work describes engineering concepts. It is not engineering advice, and nothing
+herein substitutes for the judgment of a licensed professional engineer or compliance
+with applicable local standards and regulations.

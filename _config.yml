@@ -1,0 +1,29 @@
+title: TAE — Traffic Agentic Engineering
+description: >-
+  An open specification of how traffic agents should think, reason,
+  and be held accountable.
+
+remote_theme: just-the-docs/just-the-docs
+
+plugins:
+  - jekyll-remote-theme
+
+# Navigation
+heading_anchors: true
+search_enabled: true
+enable_copy_code_button: true
+callouts_level: quiet
+
+aux_links:
+  "TAE on GitHub":
+    - "https://github.com/WaySense-AI/traffic-agentic-engineering"
+aux_links_new_tab: true
+
+footer_content: >-
+  Copyright &copy; 2026 WaySense AI.
+  Prose licensed <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>;
+  glossary and specification licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
+
+exclude:
+  - build_tae_spec.py
+  - .gitignore
