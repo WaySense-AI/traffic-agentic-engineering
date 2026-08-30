@@ -89,7 +89,7 @@ This specification contains **known open issues**, recorded rather than hidden. 
 
 TAE describes how traffic agents *should* work. It does not require you to adopt any particular implementation.
 
-The reference implementation lives in **WaySense** products. It is not required reading, and nothing here depends on it. If you implement TAE in a different stack, that is the specification working as intended — please [open an issue](https://github.com/WaySense-AI/traffic-agentic-engineering/issues) and tell us where the spec was unclear, because that is the most valuable signal this project can receive.
+The reference implementation lives in **[WayMind](https://waymind.cn)** products — the platform site is in Chinese. It is not required reading, and nothing here depends on it. If you implement TAE in a different stack, that is the specification working as intended — please [open an issue](https://github.com/WaySense-AI/traffic-agentic-engineering/issues) and tell us where the spec was unclear, because that is the most valuable signal this project can receive.
 
 ## Licensing
 

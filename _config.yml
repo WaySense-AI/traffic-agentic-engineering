@@ -23,6 +23,8 @@ callouts_level: quiet
 aux_links:
   "TAE on GitHub":
     - "https://github.com/WaySense-AI/traffic-agentic-engineering"
+  "WayMind Platform":
+    - "https://waymind.cn"
 aux_links_new_tab: true
 
 footer_content: >-
