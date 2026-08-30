@@ -1,0 +1,42 @@
+// Sidebar logo: the theme's `logo:` config only works for gem-installed
+// themes — under `remote_theme`, the SCSS `$logo` variable is never set,
+// so `.site-logo` renders empty and the long `site_title` text gets line-
+// clamped by `.site-header`'s fixed height. We fix it here by hand.
+//
+// The HTML emitted by theme's title.html (when site.logo is set) is:
+//   <div class="site-logo" role="img" aria-label="..."></div>
+// We give that div a background-image with our logo SVG, and force the
+// enclosing `.site-title` to allow extra height.
+
+.side-bar .site-header {
+  height: auto;
+  max-height: none;
+  min-height: 3.75rem;
+  border-bottom: 1px solid #eeebee;
+}
+
+.site-title {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  align-items: center;
+  font-size: 0.95rem;
+  line-height: 1.2;
+}
+
+.site-logo {
+  width: 220px;
+  max-width: 100%;
+  height: 48px;
+  background-image: url("/assets/images/logo.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: contain;
+}
+
+// On narrow viewports shrink the logo so the menu button still has room.
+@include mq(md) {
+  .site-logo {
+    width: 180px;
+    height: 44px;
+  }
+}

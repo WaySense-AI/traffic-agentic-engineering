@@ -3,7 +3,10 @@ description: >-
   An open specification of how traffic agents should think, reason,
   and be held accountable.
 
-# Logo shown in the sidebar header, replaces the long site title
+# Sidebar header logo. The theme renders <div class="site-logo"> when this
+# is set; the actual background-image and sizing come from
+# _sass/custom/custom.scss because the theme's `$logo` Sass variable never
+# resolves under remote_theme.
 logo: "/assets/images/logo.svg"
 
 remote_theme: just-the-docs/just-the-docs
