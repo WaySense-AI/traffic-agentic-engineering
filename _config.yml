@@ -1,7 +1,10 @@
-title: TAE — Traffic Agentic Engineering
+title: TAE
 description: >-
   An open specification of how traffic agents should think, reason,
   and be held accountable.
+
+# Logo shown in the sidebar header, replaces the long site title
+logo: "/assets/images/logo.svg"
 
 remote_theme: just-the-docs/just-the-docs
 
