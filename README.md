@@ -42,6 +42,19 @@ Everything in this specification is an elaboration of that chain.
 | **Engineering Delivery** | What artifact closes the loop? | Ch. 8 |
 | **Engineering Validation** | Why should anyone trust the result? | Ch. 9 |
 
+Volume II takes the same chain into the compiler, the runtime, and a reference implementation:
+
+| Layer | What it answers | Spec chapter |
+|-------|-----------------|--------------|
+| **Analysis Strategy** | Which kind of engineering question is this? | Ch. 10 |
+| **Situation Assessment** | What is the situation, before anything is designed? | Ch. 14 |
+| **Engineering Strategies** | What kind of answer is being asked for? | Ch. 15 |
+| **Reasoning Compiler** | How does a responsibility become an executable reasoning graph? | Ch. 11, 16 |
+| **Primitive Library** | What are the building blocks, and how are they specified? | Ch. 17 |
+| **Agent Runtime** | How is that graph actually executed? | Ch. 18 |
+| **Delivery Engine / System** | What artifact closes the loop? | Ch. 12, 19 |
+| **Reference Implementation** | Does any of this run? | Ch. 20 |
+
 ## The central idea: primitives are semantic, not algorithmic
 
 This is the load-bearing distinction in TAE.
@@ -81,7 +94,7 @@ The **glossary and the primitive specification are deliberately licensed more pe
 
 ## Status
 
-**v0.1 — Draft.** Ch. 1–9 complete. Ch. 10–20 (reasoning compiler, runtime, domain specialization) not yet published.
+**v0.1 — Draft.** Volumes I and II complete — Ch. 1–20.
 
 This specification contains **known open issues**, recorded rather than hidden. See [Open issues](./primitives/index.md#open-issues). The most significant: the `category` field is defined with one value set in the TPS schema and exercised with a different, larger value set in the primitive examples. This is unresolved, and we would rather publish it as an open question than quietly pick one and pretend it was designed.
 
@@ -111,7 +124,7 @@ If TAE informs your work, please cite it — a machine-readable record is in [`C
   title  = {Traffic Agentic Engineering: An Open Specification of Traffic Agent Cognition},
   author = {Guo, Haifeng},
   year   = {2026},
-  note   = {Volume I, Chapters 1--9. v0.1 draft.},
+  note   = {Volumes I--II, Chapters 1--20. v0.1 draft.},
   url    = {https://github.com/WaySense-AI/traffic-agentic-engineering}
 }
 ```
